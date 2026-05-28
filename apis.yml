@@ -1,0 +1,32 @@
+aid: whats-on-the-menu
+name: What's on the menu?
+description: "NYPL human-transcribed historical menu collection"
+url: http://nypl.github.io/menus-api/
+specificationVersion: '0.20'
+created: '2026-05-28'
+modified: '2026-05-28'
+x-source: public-apis/public-apis
+x-category: "Food & Drink"
+x-tier: 3
+x-tier-reason: bulk-registered-from-public-apis
+tags:
+  - Food And Drink
+  - Public APIs
+apis:
+  - name: What's on the menu?
+    description: "NYPL human-transcribed historical menu collection"
+    humanURL: http://nypl.github.io/menus-api/
+    baseURL: http://nypl.github.io/menus-api/
+    tags:
+      - Food And Drink
+    properties:
+      - type: Documentation
+        url: http://nypl.github.io/menus-api/
+common:
+  - type: Website
+    url: http://nypl.github.io/menus-api/
+  - type: PublicAPIsListing
+    url: https://github.com/public-apis/public-apis
+maintainers:
+  - FN: Kin Lane
+    email: kin@apievangelist.com
